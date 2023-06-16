@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Abstract model for dog types
+ * Represents a Dog
  */
 @Entity
 @AllArgsConstructor

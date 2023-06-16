@@ -3,7 +3,6 @@ package com.Windir.Pety.service;
 import java.beans.PropertyDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 import com.Windir.Pety.exception.NotFoundException;
 import com.Windir.Pety.mapper.DogMapper;
@@ -14,6 +13,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.BeanWrapperImpl;
 import org.springframework.stereotype.Service;
+/**
+ * Service Implementation class for the Entity {@link Dog}
+ */
 
 @Service
 public class DogServiceImpl implements DogService {

@@ -5,7 +5,9 @@ import java.util.stream.Collectors;
 import com.Windir.Pety.model.Dog;
 import com.Windir.Pety.model.DogDTO;
 import org.springframework.stereotype.Component;
-
+/**
+ * Mapper class for the Entity {@link Dog}
+ */
 @Component
 public class DogMapper {
 

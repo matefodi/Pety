@@ -2,7 +2,11 @@ package com.Windir.Pety.service;
 
 import java.util.List;
 
+import com.Windir.Pety.model.Dog;
 import com.Windir.Pety.model.DogDTO;
+/**
+ * Service interface for the Entity {@link Dog}
+ */
 
 public interface DogService {
 

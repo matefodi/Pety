@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * DTO for Dog entity
+ * DTO for Entity {@link Dog}
  */
 @AllArgsConstructor
 @NoArgsConstructor
