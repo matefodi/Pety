@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #c4d9f7;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.dog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dog-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 16px;
+}
+
+.dog-card h2 {
+  color: #2d4eaa;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.dog-card p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
