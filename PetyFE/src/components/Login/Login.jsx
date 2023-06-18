@@ -9,7 +9,7 @@ function Login() {
     event.preventDefault();
 
     // Replace with your login logic
-    if (username === "admin" && password === "password") {
+    if (username === "user" && password === "password") {
       setLoginStatus("Login successful");
     } else {
       setLoginStatus("Login failed");
